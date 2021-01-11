@@ -1,7 +1,7 @@
  
 clear all
 close all
-%addpath(genpath('Plotutilities'))
+addpath(genpath('functions'))
 DATA_extpar022='domain2019022210051.nc';
 hsurf_022=ncread([DATA_extpar022],'HSURF');
 lat022=ncread([DATA_extpar022],'lat');
